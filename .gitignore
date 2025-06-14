@@ -1,0 +1,12 @@
+# Entorno
+.venv/
+__pycache__/
+
+# VS Code
+.vscode/
+
+# Jupyter artefacts
+.ipynb_checkpoints/
+
+# Datos
+data/raw/
