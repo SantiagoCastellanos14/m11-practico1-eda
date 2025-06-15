@@ -48,7 +48,7 @@ git commit -m "Commit inicial"
 
 2. Conectar con GitHub (primera vez):
 ```bash
-git remote add origin <URL_DE_TU_REPOSITORIO>
+git remote add origin <URL_DEL_REPOSITORIO>
 git branch -M main
 git push -u origin main
 ```
@@ -59,5 +59,3 @@ git add .
 git commit -m "Descripción de los cambios"
 git push
 ```
-
-Nota: Reemplaza <URL_DE_TU_REPOSITORIO> con la URL de tu repositorio en GitHub.
