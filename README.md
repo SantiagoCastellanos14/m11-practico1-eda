@@ -34,4 +34,32 @@ practico_1_eda/
 ## Ejecución
 1. Clonar el repositorio
 2. Instalar dependencias
+<<<<<<< HEAD
 3. Abrir y ejecutar el notebook `practico_1_eda.ipynb`
+=======
+3. Abrir y ejecutar el notebook `practico_1_eda.ipynb`
+
+## Control de Versiones
+Para guardar los cambios en GitHub:
+
+1. Inicializar el repositorio (primera vez):
+```bash
+git init
+git add .
+git commit -m "Commit inicial"
+```
+
+2. Conectar con GitHub (primera vez):
+```bash
+git remote add origin <URL_DEL_REPOSITORIO>
+git branch -M main
+git push -u origin main
+```
+
+3. Para actualizaciones posteriores:
+```bash
+git add .
+git commit -m "Descripción de los cambios"
+git push
+```
+>>>>>>> 2e8dc96155297f4db112cf429ef9d96173fec2bf
