@@ -34,9 +34,6 @@ practico_1_eda/
 ## Ejecución
 1. Clonar el repositorio
 2. Instalar dependencias
-<<<<<<< HEAD
-3. Abrir y ejecutar el notebook `practico_1_eda.ipynb`
-=======
 3. Abrir y ejecutar el notebook `practico_1_eda.ipynb`
 
 ## Control de Versiones
@@ -62,4 +59,3 @@ git add .
 git commit -m "Descripción de los cambios"
 git push
 ```
->>>>>>> 2e8dc96155297f4db112cf429ef9d96173fec2bf
