@@ -1,7 +1,7 @@
 # Entorno
 .venv/
 __pycache__/
-
+venv/
 # VS Code
 .vscode/
 
