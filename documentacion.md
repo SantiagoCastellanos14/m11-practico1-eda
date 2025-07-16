@@ -10,4 +10,7 @@ para las series temporales involucradas en la estimacion del volumen de venta pa
     2.   Reduciremos el lapso temporal para aquellos clientes que comenzaron a comprar después -> *Para evitar muchos datos faltantes en las series*
     3.  No tendremos en cuenta a aquellos clientes que hace más de 9 meses no compren -> *Pues no sería confiable para los fines de la estimacion*
     4.   **Imputaremos todas los datos faltantes** representando "que no compraron" -> *Para completar series faltantes sin agregar ruido (usar otras tecnicas de imputacion implicaria agregar compras inexistentes que estropearian las estimaciones)*
-- **NORMALIZACION/ESCALADO**:
+- **NORMALIZACION/ESCALADO**: Vamos a elegir **StandarScaler** pues necesitamos estandarizar nuestras variables numéricas con el objetivo de realizar la **Segmentación de Clientes** y en este sentido este algoritmo se destaca sobre MinMaxScaler (normalización) pues:
+    - Preserva la estructura natural de los datos.
+    - Maneja mejor los outliers
+    - Es más compatible con los algoritmos que usaremos: K-Means, DBSCAN o Gaussian Mixture Models -> *esto se debe a que la mayoria de estos algoritmos tiene en cuenta la distancia entre clientes, cosa que se preserva mejor con Estandarización.*
