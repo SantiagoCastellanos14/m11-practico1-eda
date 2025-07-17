@@ -6,4 +6,4 @@ plotly
 pyarrow
 missingno
 openpyxl
-sklearn
+scikit-learn
